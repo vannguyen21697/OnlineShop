@@ -161,6 +161,7 @@ namespace OnlineShop.Controllers
             catch (Exception ex)
             {
                 //ghi log
+                throw (ex);
                 return Redirect("/loi-thanh-toan");
             }
             return Redirect("/hoan-thanh");

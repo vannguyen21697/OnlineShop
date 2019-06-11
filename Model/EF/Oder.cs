@@ -9,7 +9,6 @@ namespace Model.EF
     [Table("Oder")]
     public partial class Oder
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public long ID { get; set; }
 
         public DateTime? CreateDate { get; set; }
