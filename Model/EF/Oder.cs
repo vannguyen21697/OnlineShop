@@ -13,6 +13,9 @@ namespace Model.EF
 
         public DateTime? CreateDate { get; set; }
 
+        [StringLength(50)]
+        public string ShipMobile { get; set; }
+
         public long? CustomerID { get; set; }
 
         [StringLength(50)]

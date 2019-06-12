@@ -321,6 +321,7 @@ C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\roslyn\vbc.rsp
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\ClassLibrary1.dll
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\EntityFramework.dll
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\Microsoft.AspNet.TelemetryCorrelation.dll
@@ -339,6 +340,7 @@ C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\System.Web.WebP
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\WebGrease.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\ClassLibrary1.pdb
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\Model.pdb
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\Model.dll.config
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\EntityFramework.xml

@@ -8,6 +8,7 @@ using System.Web.Mvc;
 using System.Web.Script.Serialization;
 using Model.EF;
 using System.Configuration;
+using ClassLibrary1;
 
 namespace OnlineShop.Controllers
 {
@@ -125,7 +126,7 @@ namespace OnlineShop.Controllers
             var order = new Oder();
             order.CreateDate = DateTime.Now;
             order.ShipAddress = address;
-            //order.ShipMobile = mobile;
+            order.ShipMobile = mobile;
             order.ShipName = shipName;
             order.ShipEmail = email;
 
@@ -144,19 +145,19 @@ namespace OnlineShop.Controllers
                     orderDetail.Quantity = item.Quantity;
                     detailDao.Insert(orderDetail);
 
-                    //total += (item.Product.Price.GetValueOrDefault(0) * item.Quantity);
+                    total += (item.Product.Price.GetValueOrDefault(0) * item.Quantity);
                 }
-                //string content = System.IO.File.ReadAllText(Server.MapPath("~/assets/client/template/neworder.html"));
+                string content = System.IO.File.ReadAllText(Server.MapPath("~/assets/client/template/neworder.html"));
 
-                //content = content.Replace("{{CustomerName}}", shipName);
-                //content = content.Replace("{{Phone}}", mobile);
-                //content = content.Replace("{{Email}}", email);
-                //content = content.Replace("{{Address}}", address);
-                //content = content.Replace("{{Total}}", total.ToString("N0"));
-                //var toEmail = ConfigurationManager.AppSettings["ToEmailAddress"].ToString();
+                content = content.Replace("{{CustomerName}}", shipName);
+                content = content.Replace("{{Phone}}", mobile);
+                content = content.Replace("{{Email}}", email);
+                content = content.Replace("{{Address}}", address);
+                content = content.Replace("{{Total}}", total.ToString("N0"));
+                var toEmail = ConfigurationManager.AppSettings["ToEmailAddress"].ToString();
 
-                //new MailHelper().SendMail(email, "Đơn hàng mới từ OnlineShop", content);
-                //new MailHelper().SendMail(toEmail, "Đơn hàng mới từ OnlineShop", content);
+                new MailHelper().SendMail(email, "Đơn hàng mới từ OnlineShop", content);
+                new MailHelper().SendMail(toEmail, "Đơn hàng mới từ OnlineShop", content);
             }
             catch (Exception ex)
             {

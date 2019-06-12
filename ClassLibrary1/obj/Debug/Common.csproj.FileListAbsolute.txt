@@ -1,0 +1,6 @@
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\ClassLibrary1\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\ClassLibrary1\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
