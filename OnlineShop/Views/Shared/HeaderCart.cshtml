@@ -1,12 +1,42 @@
 ﻿@model List<OnlineShop.Models.CartItem>
+<div class="call" style="float:right;margin-right: 4%;">
 
-<div class="cart">
-    <p>
-        Chào mừng bạn đến với website ! <span>Giỏ hàng:</span><div id="dd" class="wrapper-dropdown-2">
-            @Model.Count sản phẩm 
-            <ul class="dropdown">
-                <li>you have no items in your Shopping cart</li>
-            </ul>
+</div>
+<div style="float:right">
+    @{
+        var session = (UserLogin)Session[OnlineShop.Common.CommonConstants.USER_SESSION];
+    }
+    @if (session == null)
+    {
+        <div>
+            <a href="/dang-ky">Đăng ký</a>
+            <a href="/dang-nhap">Đăng nhập</a>
         </div>
-    </p>
+        <p>Giỏ hàng:</p>
+
+        <div id="dd" class="wrapper-dropdown-2">
+            @Model.Count sản phẩm
+            <ul class="dropdown"></ul>
+        </div>
+
+
+
+
+    }
+    else
+    {
+        <ul>
+            <li>
+                Xin chào: @session.UserName
+            </li>
+            <li>@Html.ActionLink("Thoát","Logout","User")</li>
+        </ul>
+        <span>Giỏ hàng:</span>
+        <div id="dd" class="wrapper-dropdown-2">
+            @Model.Count sản phẩm
+            <ul class="dropdown"></ul>
+        </div>
+
+
+    }
 </div>

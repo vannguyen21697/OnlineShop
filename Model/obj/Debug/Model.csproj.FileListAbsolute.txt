@@ -57,7 +57,6 @@ C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\bin\Debug\EntityFramewor
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\bin\Debug\PagedList.xml
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\bin\Debug\PagedList.Mvc.xml
-C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.csproj.CopyComplete
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.dll

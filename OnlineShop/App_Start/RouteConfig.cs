@@ -12,6 +12,11 @@ namespace OnlineShop
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            // BotDetect requests must not be routed 
+            //routes.IgnoreRoute("{*botdetect}",
+            //  new { botdetect = @"(.*)BotDetectCaptcha\.ashx" });
+
             routes.MapRoute(
                name: "Product Category",
                url: "san-pham/{MetaTitle}-{cateId}",
@@ -25,11 +30,23 @@ namespace OnlineShop
               namespaces: new[] { "OnlineShop.Controllers" }
           );
             routes.MapRoute(
-               name: "About",
-               url: "gioi-thieu",
-               defaults: new { controller = "About", action = "Index", id = UrlParameter.Optional },
+               name: "Register",
+               url: "dang-ky",
+               defaults: new { controller = "User", action = "Register", id = UrlParameter.Optional },
                namespaces: new[] { "OnlineShop.Controllers" }
           );
+            routes.MapRoute(
+             name: "Login",
+             url: "dang-nhap",
+             defaults: new { controller = "User", action = "Login", id = UrlParameter.Optional },
+             namespaces: new[] { "OnlineShop.Controllers" }
+        );
+            routes.MapRoute(
+             name: "About",
+             url: "gioi-thieu",
+             defaults: new { controller = "About", action = "Index", id = UrlParameter.Optional },
+             namespaces: new[] { "OnlineShop.Controllers" }
+        );
             routes.MapRoute(
                name: "Payment",
                url: "thanh-toan",

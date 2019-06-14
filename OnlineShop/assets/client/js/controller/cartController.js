@@ -36,7 +36,7 @@
 
         $('#btnDeleteAll').off('click').on('click', function () {
 
-
+            debugger;
             $.ajax({
                 url: '/Cart/DeleteAll',
                 dataType: 'json',
