@@ -510,3 +510,5 @@ C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\Microsoft.Net.H
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\System.Collections.Immutable.xml
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\System.Reflection.Metadata.xml
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\System.Text.Encodings.Web.xml
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\Facebook.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\OnlineShop\bin\Facebook.xml

@@ -61,3 +61,4 @@ C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.csproj.C
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.csproj.CopyComplete
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.dll
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.pdb
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
