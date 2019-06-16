@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "ClassLibrary1\Common.csproj", "{65F94C06-542D-4670-9F8E-94075F0114F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticRescouce", "StaticRescouce\StaticRescouce.csproj", "{B8D52EE7-FBEC-4BDE-BA5B-2CF632434F3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{65F94C06-542D-4670-9F8E-94075F0114F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65F94C06-542D-4670-9F8E-94075F0114F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65F94C06-542D-4670-9F8E-94075F0114F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D52EE7-FBEC-4BDE-BA5B-2CF632434F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D52EE7-FBEC-4BDE-BA5B-2CF632434F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D52EE7-FBEC-4BDE-BA5B-2CF632434F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D52EE7-FBEC-4BDE-BA5B-2CF632434F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

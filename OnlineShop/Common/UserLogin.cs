@@ -11,5 +11,6 @@ namespace OnlineShop
         
         public long UserID { set; get; }
         public string UserName { set; get; }
+        public string GroupId { get; set; }
     }
 }

@@ -62,3 +62,8 @@ C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.csproj.C
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.dll
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.pdb
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\bin\Debug\StaticRescouce.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\bin\Debug\StaticRescouce.pdb
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\bin\Debug\en\StaticRescouce.resources.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\bin\Debug\ClassLibrary1.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\Model\bin\Debug\ClassLibrary1.pdb

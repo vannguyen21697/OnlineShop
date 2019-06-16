@@ -12,6 +12,7 @@ namespace OnlineShop.Areas.Admin.Controllers
     public class UserController : BaseController
     {
         // GET: Admin/User
+        [HasCredential(RoleID ="VIEW_USER")]
         public ActionResult Index(string searchString, int page=1,int pageSize=10)
         {
             var dao = new UserDao();
@@ -20,11 +21,13 @@ namespace OnlineShop.Areas.Admin.Controllers
             return View(model);
         }
         [HttpGet]
+        [HasCredential(RoleID = "ADD_USER")]
         public ActionResult Create()
             {
             return View();
             } 
         [HttpPost]
+        [HasCredential(RoleID = "ADD_USER")]
         public ActionResult Create(User user)
         {
             var dao = new UserDao();
@@ -42,12 +45,14 @@ namespace OnlineShop.Areas.Admin.Controllers
             }
             return View("Index");
         }
+        [HasCredential(RoleID = "EDIT_USER")]
         public ActionResult Edit(int id)
         {
             var user = new UserDao().ViewDetail(id);
             return View(user);
         }
         [HttpPost]
+        [HasCredential(RoleID = "EDIT_USER")]
         public ActionResult Edit(User user)
         {
             var dao = new UserDao();
@@ -70,12 +75,14 @@ namespace OnlineShop.Areas.Admin.Controllers
         }
         //delete
         [HttpDelete]
+        [HasCredential(RoleID = "DELETE_USER")]
         public ActionResult Delete(int id)
         {
             new UserDao().Delete(id);
             return RedirectToAction("Index");
         }
         [HttpPost]
+        [HasCredential(RoleID = "EDIT_USER")]
         public JsonResult ChangeStatus(long id)
         {
             var result = new UserDao().ChangeStatus(id);
