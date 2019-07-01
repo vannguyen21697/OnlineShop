@@ -1,0 +1,11 @@
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\bin\Release\StaticRescouce.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\bin\Release\StaticRescouce.pdb
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\bin\Release\en\StaticRescouce.resources.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\StaticRescouce.Resources.resources
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\StaticRescouce.Resources.en.resources
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\StaticRescouce.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\StaticRescouce.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\en\StaticRescouce.resources.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\StaticRescouce.dll
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\StaticRescouce.pdb
+C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\StaticRescouce.csprojAssemblyReference.cache
