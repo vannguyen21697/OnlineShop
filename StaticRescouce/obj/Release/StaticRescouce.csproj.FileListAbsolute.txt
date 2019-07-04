@@ -8,4 +8,3 @@ C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\Sta
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\en\StaticRescouce.resources.dll
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\StaticRescouce.dll
 C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\StaticRescouce.pdb
-C:\Users\nguye\Desktop\ProjectWeb\DoAn\OnlineShop\StaticRescouce\obj\Release\StaticRescouce.csprojAssemblyReference.cache
